@@ -278,10 +278,10 @@ EOM
 username=`head -n1 $1 | tail -1`   
 password=`head -n2 $1 | tail -1`
 
-HOST='173.225.110.100'
-USER='teamkidl_td'
-PASS='jan022011'
-DB='teamkidl_td'
+HOST='64.20.55.125';
+USER='apimedia_foverovpn';
+PASS='F1005r90@';
+DBNAME='apimedia_foverovpn';
 
 
 Query="SELECT user_name FROM users WHERE user_name='$username' AND auth_vpn=md5('$password') AND status='live' AND is_freeze=0 AND is_ban=0 AND (vip_duration > 0 OR private_duration > 0)"
