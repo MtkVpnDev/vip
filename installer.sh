@@ -1,9 +1,9 @@
 #!/bin/bash
 #Script Variables
-HOST='173.225.110.100';
-USER='teamkidl_td';
-PASS='jan022011';
-DBNAME='teamkidl_td';
+HOST='64.20.55.125';
+USER='apimedia_foverovpn';
+PASS='F1005r90@';
+DBNAME='apimedia_foverovpn';
 PORT_TCP='1194';
 PORT_UDP='53';
 timedatectl set-timezone Asia/Riyadh
